@@ -58,8 +58,38 @@ vim LICENSE.md
    66  git checkout -- LICENSE.md
    67  vi LICENSE.md
 
-Branching 
-git status
-git branch
-git checkout -b new
+     git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
 
+   76  git hist
+   77  git diff 496e5f0 abc2d9c
+   78  git diff abc2d9c HEAD
+   79  git difftool abc2d9c HEAD
+   80  git difftool 496e5f0 HEAD
+   81  git difftool 496e5f0 HEAD
+   82  git status
+   83  git branch
+   84  git checkout -b new
+   85  git branch
+   86  ls -al
+   87  vi 1.txt
+   88  touch 1.txt
+   89  git add .
+   90  git status
+   91  git commit -m " adding updates from new branch"
+   92  git status
+   93  git hist
+   94  git diff
+   95  git diff abc2d9c HEAD
+   96  git status
+   97  git hist
+   98  git diff 23c9cb9 HEAD
+   99  git diff 23c9cb9  HEAD
+  100  git diff 23c9cb9 HEAD
+  101  git checkout -b master
+  102  git checkout master
+  103  git status
+  104  yum install tree
+  105  git install yum
+  106  install yum
+  107  git branch
+  108  git merge
