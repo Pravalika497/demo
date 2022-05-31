@@ -3,7 +3,12 @@
     3  git config --global user.email "valliswarna497@gmail.com"
     
    11  notepad++ ~/.bash_profile
-   12  git config --global core.editor "notepad++ -multiInst -nosession"
+
+
+
+
+
+12  git config --global core.editor "notepad++ -multiInst -nosession"
    13  git config --global -e
    14  git config --global diff.tool p4merge
    15    git config --global difftool.p4merge.path "'/c/Program Files/Perforce/p4merge.exe'"
@@ -29,6 +34,32 @@
    27  git add .
    28  git status
    29  git commit -m " New commit"
+vim LICENSE.md
+   46  git status
+   47  git add .
+   48  git add LICENSE.md
+   49  git status
+   50  git commit -m"added"
+   51  ls -al
+   52  git log
+   53  git show
+   54  pwd
+   55  cd ..
+   56  ls
+   57  cd demo/
+   58  ls -al
+   59  vi LICENSE.md
+   60  git status
+   61  git add .
+   62  ls -al
+   63  git status
+   64  git reset HEAD LICENSE.md
+   65  git status
+   66  git checkout -- LICENSE.md
+   67  vi LICENSE.md
 
-
+Branching 
+git status
+git branch
+git checkout -b new
 
