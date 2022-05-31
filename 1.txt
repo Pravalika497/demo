@@ -1,0 +1,17 @@
+ 1  git init
+    2  git config --global user.name "pravalika ayyalasomayajula"
+    3  git config --global user.email "valliswarna497@gmail.com"
+    
+   11  notepad++ ~/.bash_profile
+   12  git config --global core.editor "notepad++ -multiInst -nosession"
+   13  git config --global -e
+   14  git config --global diff.tool p4merge
+   15    git config --global difftool.p4merge.path "'/c/Program Files/Perforce/p4merge.exe'"
+   16  git config --global difftool.prompt false
+
+   17  git config --global merge.tool p4merge
+   21  git config --global mergetool.p4merge.path "'/c/Program Files/Perforce/p4merge.exe'"
+   22  git config --global mergetool.prompt false
+
+
+
