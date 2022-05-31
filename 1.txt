@@ -13,5 +13,22 @@
    21  git config --global mergetool.p4merge.path "'/c/Program Files/Perforce/p4merge.exe'"
    22  git config --global mergetool.prompt false
 
+ mkdir projects
+   15  ls -al
+   16  cd projects/
+   17  ls -al
+   18  git init demo
+   19  ls
+   20  cd demo/
+   21  git status
+   22  valli README.md
+   23  ls -al
+   24  valli README.md
+   25  ls -al
+   26  git status
+   27  git add .
+   28  git status
+   29  git commit -m " New commit"
+
 
 
