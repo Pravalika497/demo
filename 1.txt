@@ -147,4 +147,27 @@ vim LICENSE.md
   237  vi /c/Users/hp/.ssh/id_rsa.pub
   238  ssh -T git@github.com
 GIT push
+ git commit -am "remove -ipsum"
+  250  git push -u origin remove-ipsum
+  251  git status
+  252  git checkout master
+  253  git branches
+  254  git branche
+  255  git branch
+  256  git checkout main
+  257  git pull
+  258  git status
+  259  git merge remove-ipsum
+  260  git push
+  261  git status
+  262  git branch
+  263  git checkout remove-ipsum
+  264  git branch -a
+  265  git branch -d remove-ipsum
+  266  git checkout main
+  267  git branch -d remove-ipsum
+  268  git status
+  269  git branch -a
+  270  git fetch -p
+  271  git branch -a
 
