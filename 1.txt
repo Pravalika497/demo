@@ -2,16 +2,22 @@
     2  git config --global user.name "pravalika ayyalasomayajula"
     3  git config --global user.email "valliswarna497@gmail.com"
     
-   11  notepad++ ~/.bash_profile
-   12  git config --global core.editor "notepad++ -multiInst -nosession"
-   13  git config --global -e
-   14  git config --global diff.tool p4merge
-   15    git config --global difftool.p4merge.path "'/c/Program Files/Perforce/p4merge.exe'"
-   16  git config --global difftool.prompt false
+  11  notepad++ ~/.bash_profile
 
-   17  git config --global merge.tool p4merge
-   21  git config --global mergetool.p4merge.path "'/c/Program Files/Perforce/p4merge.exe'"
-   22  git config --global mergetool.prompt false
+
+
+
+
+12  git config --global core.editor "notepad++ -multiInst -nosession"
+   13  git config --global -e
+     git config --global diff.tool p4merge
+  145  git config --global difftool.p4merge.path "C:\Program Files\Perforce\p4merge.exe"
+  146  git config --global difftool.prompt false
+  147  git config --global merge.tool p4merge
+  148  git config --global mergetool.p4merge.path "C:\Program Files\Perforce\p4merge.exe"
+  149  git config --global mergetool.prompt false
+  150  git mergetool
+
 
  mkdir projects
    15  ls -al
@@ -29,6 +35,116 @@
    27  git add .
    28  git status
    29  git commit -m " New commit"
+vim LICENSE.md
+   46  git status
+   47  git add .
+   48  git add LICENSE.md
+   49  git status
+   50  git commit -m"added"
+   51  ls -al
+   52  git log
+   53  git show
+   54  pwd
+   55  cd ..
+   56  ls
+   57  cd demo/
+   58  ls -al
+   59  vi LICENSE.md
+   60  git status
+   61  git add .
+   62  ls -al
+   63  git status
+   64  git reset HEAD LICENSE.md
+   65  git status
+   66  git checkout -- LICENSE.md
+   67  vi LICENSE.md
 
 
+
+   76  git hist
+   77  git diff 496e5f0 abc2d9c
+   78  git diff abc2d9c HEAD
+   79  git difftool abc2d9c HEAD
+   80  git difftool 496e5f0 HEAD
+   81  git difftool 496e5f0 HEAD
+   82  git status
+   83  git branch
+   84  git checkout -b new
+   85  git branch
+   86  ls -al
+   87  vi 1.txt
+   88  touch 1.txt
+   89  git add .
+   90  git status
+   91  git commit -m " adding updates from new branch"
+   92  git status
+   93  git hist
+   94  git diff
+   95  git diff abc2d9c HEAD
+   96  git status
+   97  git hist
+   98  git diff 23c9cb9 HEAD
+   99  git diff 23c9cb9  HEAD
+  100  git diff 23c9cb9 HEAD
+  101  git checkout -b master
+  102  git checkout master
+  103  git status
+  104  yum install tree
+  105  git install yum
+  106  install yum
+  107  git branch
+  108  git merge
+  git status
+ git stash
+  189  git stash list
+  190  git stash pop
+  191  git add .
+  192  git commit -am " stash check"
+  193  git stash pop
+  194  ls -al
+  195  git stash list
+  196  vi LICENSE.md
+  197  git status
+  198  git add .
+  199  git status
+  200  git commit -am "checking Reset"
+  201  git status
+  202  git hist
+  203  git reset 24f47b6 --soft
+  204  git hist
+  205  git status
+  206  git reset 9a2da03 --soft
+  207  git status
+  208  git hist
+  209  git reflog
+  210  git hist
+  211  git reset 496e5f0 --soft
+  212  git hist
+  213  git log --online
+  214  git log
+  215  git remote add origin https://github.com/Pravalika497/demo.git
+  216  git branch -M main
+  217  git push -u origin
+  218  git push -u origin main
+  219  git status
+  220  ls -al
+  221  git push -u origin master
+  222  git push -u origin master --tags
+  223  cd ..
+  224  git push -u origin master --tags
+  225  pwd
+  226  ls -al
+  227  cd demo/
+  228  ls -al
+  229  git push -u origin master
+  230  git push -u origin main
+  231  mkdir .ssh
+  232  cd .ssh
+  233  ssh -keygen -t rsa -c "valliswarna497@gmail.com"
+  234  ssh-keygen -t rsa -c "valliswarna497@gmail.com"
+  235  ssh-keygen
+  236  vi /c/Users/hp/.ssh/id_rsa.pub
+  237  vi /c/Users/hp/.ssh/id_rsa.pub
+  238  ssh -T git@github.com
+GIT push
 
